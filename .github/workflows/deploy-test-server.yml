@@ -2,3 +2,8 @@ name: DEPLOY TEST
 on:
   pull_request:
     types: [labeled, opened, reopened, synchronize]
+jobs:
+  new_flow:
+    runs-on: ubuntu-latest
+    steps:
+      - run: Just open a new file for the PR to test
