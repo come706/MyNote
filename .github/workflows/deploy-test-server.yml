@@ -1,4 +1,5 @@
 name: DEPLOY TEST
+on: workflow_dispatch
 jobs:
   new_flow:
     runs-on: ubuntu-latest
