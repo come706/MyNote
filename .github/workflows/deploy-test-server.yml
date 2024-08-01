@@ -6,4 +6,4 @@ jobs:
   new_flow:
     runs-on: ubuntu-latest
     steps:
-      - run: Just open a new file for the PR to test
+      - run: echo Just open a new file for the PR to test
